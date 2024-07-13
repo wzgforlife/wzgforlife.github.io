@@ -1,1 +1,1 @@
-# wzgforlife.git.hub.io
+# wzgforlife.github.io
