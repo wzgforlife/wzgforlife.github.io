@@ -4,27 +4,6 @@
   
     
     <entry>
-      <title>MSF基础使用</title>
-      <link href="//_post/%E5%B7%A5%E5%85%B7%E9%9B%86/MSF/"/>
-      <url>//_post/%E5%B7%A5%E5%85%B7%E9%9B%86/MSF/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Metasploitable介绍"><a href="#Metasploitable介绍" class="headerlink" title="Metasploitable介绍"></a>Metasploitable介绍</h1><p>Metasploitable是一个虚拟靶机系统镜像，里面含有大量未被修复的安全漏洞，是主要用于MSF渗透测试的目标。Metasploitable是基于Ubuntu的Linux虚拟机，兼容Vmware、VBOX等虚拟机系统</p><h1 id="Metasploita-Framework介绍"><a href="#Metasploita-Framework介绍" class="headerlink" title="Metasploita Framework介绍"></a>Metasploita Framework介绍</h1><p>kali里自带了msf工具，使用命令msfconsole就可以启动</p><h2 id="MSF目录结构"><a href="#MSF目录结构" class="headerlink" title="MSF目录结构"></a>MSF目录结构</h2><h3 id="1、安装目录-kali"><a href="#1、安装目录-kali" class="headerlink" title="1、安装目录-kali"></a>1、安装目录-kali</h3><figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line">ls /usr/share/metasploit-framework</span><br></pre></td></tr></table></figure><p>查看msf安装目录</p><h3 id="2、modules模块"><a href="#2、modules模块" class="headerlink" title="2、modules模块"></a>2、modules模块</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/74cece7b-2cb8-4690-b878-69b6fa2d79e4/image.png" alt="image.png"></p><p>目录存放了7个渗透测试的模块</p><h3 id="3、plugins插件"><a href="#3、plugins插件" class="headerlink" title="3、plugins插件"></a>3、plugins插件</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/d426e7ff-b93b-4c8d-95b8-71a5ff3a1dac/image.png" alt="image.png"></p><p>主要提供数据库连接插件和其他各种插件</p><h3 id="4、tool工具"><a href="#4、tool工具" class="headerlink" title="4、tool工具"></a>4、tool工具</h3><p>目录存放着有用的脚本和零散的工具</p><h3 id="5、script"><a href="#5、script" class="headerlink" title="5、script"></a>5、script</h3><p>目录存放着meterepreteer利用的脚本</p><h3 id="6、db"><a href="#6、db" class="headerlink" title="6、db"></a>6、db</h3><p>包含了metasploit中所有模块的信息以及描述数据库当前的状态</p><h3 id="7、data"><a href="#7、data" class="headerlink" title="7、data"></a>7、data</h3><p>存放使用到的文件，比如密码字典</p><p>meterpreter、passive、vnc、dlls等工具和一些用户接口代码，msfweb和一些其他模块用到的数据</p><h3 id="8、lib"><a href="#8、lib" class="headerlink" title="8、lib"></a>8、lib</h3><p>库文件都保存在这个目录里</p><h3 id="9、modules"><a href="#9、modules" class="headerlink" title="9、modules"></a>9、modules</h3><p>msf存放的模块都在这个文件夹</p><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/74cece7b-2cb8-4690-b878-69b6fa2d79e4/image.png" alt="image.png"></p><ol><li>auxiliary ：辅助模块，辅助渗透（端口扫描、登录密码爆破、漏洞利用验证等）</li><li>exploits ：漏洞利用模块</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具集 </category>
-          
-          <category> MSF </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>SSH隧道</title>
       <link href="//_post/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/%E9%9A%A7%E9%81%93%E6%90%AD%E5%BB%BA/"/>
       <url>//_post/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/%E9%9A%A7%E9%81%93%E6%90%AD%E5%BB%BA/</url>
@@ -37,6 +16,27 @@
           <category> 内网渗透 </category>
           
           <category> 隧道搭建 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MSF基础使用</title>
+      <link href="//_post/%E5%B7%A5%E5%85%B7%E9%9B%86/MSF/"/>
+      <url>//_post/%E5%B7%A5%E5%85%B7%E9%9B%86/MSF/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Metasploitable介绍"><a href="#Metasploitable介绍" class="headerlink" title="Metasploitable介绍"></a>Metasploitable介绍</h1><p>Metasploitable是一个虚拟靶机系统镜像，里面含有大量未被修复的安全漏洞，是主要用于MSF渗透测试的目标。Metasploitable是基于Ubuntu的Linux虚拟机，兼容Vmware、VBOX等虚拟机系统</p><h1 id="Metasploita-Framework介绍"><a href="#Metasploita-Framework介绍" class="headerlink" title="Metasploita Framework介绍"></a>Metasploita Framework介绍</h1><p>kali里自带了msf工具，使用命令msfconsole就可以启动</p><h2 id="MSF目录结构"><a href="#MSF目录结构" class="headerlink" title="MSF目录结构"></a>MSF目录结构</h2><h3 id="1、安装目录-kali"><a href="#1、安装目录-kali" class="headerlink" title="1、安装目录-kali"></a>1、安装目录-kali</h3><figure class="highlight jsx"><table><tr><td class="code"><pre><span class="line">ls /usr/share/metasploit-framework</span><br></pre></td></tr></table></figure><p>查看msf安装目录</p><h3 id="2、modules模块"><a href="#2、modules模块" class="headerlink" title="2、modules模块"></a>2、modules模块</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/74cece7b-2cb8-4690-b878-69b6fa2d79e4/image.png" alt="image.png"></p><p>目录存放了7个渗透测试的模块</p><h3 id="3、plugins插件"><a href="#3、plugins插件" class="headerlink" title="3、plugins插件"></a>3、plugins插件</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/d426e7ff-b93b-4c8d-95b8-71a5ff3a1dac/image.png" alt="image.png"></p><p>主要提供数据库连接插件和其他各种插件</p><h3 id="4、tool工具"><a href="#4、tool工具" class="headerlink" title="4、tool工具"></a>4、tool工具</h3><p>目录存放着有用的脚本和零散的工具</p><h3 id="5、script"><a href="#5、script" class="headerlink" title="5、script"></a>5、script</h3><p>目录存放着meterepreteer利用的脚本</p><h3 id="6、db"><a href="#6、db" class="headerlink" title="6、db"></a>6、db</h3><p>包含了metasploit中所有模块的信息以及描述数据库当前的状态</p><h3 id="7、data"><a href="#7、data" class="headerlink" title="7、data"></a>7、data</h3><p>存放使用到的文件，比如密码字典</p><p>meterpreter、passive、vnc、dlls等工具和一些用户接口代码，msfweb和一些其他模块用到的数据</p><h3 id="8、lib"><a href="#8、lib" class="headerlink" title="8、lib"></a>8、lib</h3><p>库文件都保存在这个目录里</p><h3 id="9、modules"><a href="#9、modules" class="headerlink" title="9、modules"></a>9、modules</h3><p>msf存放的模块都在这个文件夹</p><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/382f8188-a99a-4a6d-b856-54c700d93bb1/74cece7b-2cb8-4690-b878-69b6fa2d79e4/image.png" alt="image.png"></p><ol><li>auxiliary ：辅助模块，辅助渗透（端口扫描、登录密码爆破、漏洞利用验证等）</li><li>exploits ：漏洞利用模块</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具集 </category>
+          
+          <category> MSF </category>
           
       </categories>
       
